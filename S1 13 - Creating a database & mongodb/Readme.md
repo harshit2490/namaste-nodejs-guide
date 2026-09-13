@@ -62,7 +62,7 @@ Why MongoDB Atlas?
 MongoDB Atlas Setup Flow:
 ────────────────────────────────────────────────
 
-  Step 1                Step 2               Step 3
+    Step 1                Step 2                Step 3
   ┌──────────┐         ┌──────────┐         ┌──────────────┐
   │ Sign Up  │──────▶ │ Create    │──────▶ │ Choose Cloud │
   │ / Login  │         │ Project  │         │ Provider     │
@@ -70,7 +70,7 @@ MongoDB Atlas Setup Flow:
                                             └──────┬───────┘
                                                    │
                                                    ▼
-  Step 6                Step 5               Step 4
+    Step 6               Step 5                  Step 4
   ┌──────────┐         ┌──────────┐         ┌──────────────┐
   │ Connect! │ ◀──────│ Get Conn  │ ◀──────│ Select Free  │
   │          │         │ String   │         │ M0 Sandbox   │
