@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 const { ObjectId } = require("mongodb");
 
-//connection URL
+// Connection URL
 const url = "mongodb+srv://harshit:rFw7NSxncTpSc7Bq@cluster0.yulixmn.mongodb.net/"
 const client = new MongoClient(url);
 
@@ -20,34 +20,27 @@ async function main() {
         phoneNumber: "2233445566",
     }
 
-
     // Create
     const insertData = await collection.insertMany([data])
     console.log("data inserted = ", insertData)
 
-
     // Update
-    const updateData = await collection.updateOne({ _id: new ObjectId('67066d6a3be8f41630d5dae4') }, { $set: { firstname: "Mint" } })
+    const updateData = await collection.updateOne({ _id: new ObjectId('67066d6a3be8f41630d5dae4') }, { $set: { firstname: "Virat" } })
     console.log("Updated document ", updateData)
-
 
     //Read 
     const findData = await collection.find({}).toArray();
     console.log("All data :", findData)
 
-    //delete
+    // Delete
     const deletedata = await collection.deleteOne({ _id: new ObjectId('670668562c6bd11e25050c13') })
     console.log("deleted data=>", deletedata)
 
-    //Count documents
+    // Count Documents
     const countData = await collection.countDocuments({})
     console.log("Number of documents in db are :", countData)
 
-
-
     return 'done'
-
-
 }
 
 main().then(console.log)
