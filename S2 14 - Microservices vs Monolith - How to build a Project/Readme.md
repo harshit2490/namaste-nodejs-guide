@@ -1,6 +1,6 @@
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-3) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-4) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 13: Creating a Database & MongoDB](../S1%2013%20-%20Creating%20a%20database%20%26%20mongodb/Readme.md) |                                             | [Chapter 15: Working with multiple environments](../S2%2015%20-%20Working%20with%20Multiple%20Environments/Readme.md) |
 
@@ -127,22 +127,22 @@ Monolith Architecture:
 Microservices Architecture:
 ───────────────────────────────────────────────────────
 
-           ┌─────────────┐
-           │ API Gateway │
-           └──────┬──────┘
-                  │
-      ┌───────────────────────┐
-      │           │           │
-      ▼           ▼           ▼
-  ┌────────┐  ┌────────┐  ┌────────┐
-  │ Auth   │  │ Users  │  │ Feed   │
-  │ Service│  │ Service│  │ Service│
-  └───┬────┘  └───┬────┘  └───┬────┘
-      │           │           │
-      ▼           ▼           ▼
-   ┌──────┐    ┌──────┐    ┌──────┐
-   │ DB 1 │    │ DB 2 │    │ DB 3 │
-   └──────┘    └──────┘    └──────┘
+            ┌───────────────┐
+            │  API Gateway  │
+            └───────┬───────┘
+                    │
+      ┌──────────────────────────┐
+      │             │            │
+      ▼             ▼            ▼
+  ┌─────────┐  ┌─────────┐  ┌─────────┐
+  │ Auth    │  │ Users   │  │ Feed    │
+  │ Service │  │ Service │  │ Service │
+  └────┬────┘  └────┬────┘  └────┬────┘
+       │            │            │
+       ▼            ▼            ▼
+   ┌──────┐     ┌──────┐     ┌──────┐
+   │ DB 1 │     │ DB 2 │     │ DB 3 │
+   └──────┘     └──────┘     └──────┘
 
   Each service:
   • Has its own codebase & repo
@@ -353,7 +353,7 @@ The Evolution Most Companies Follow:
 
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-3) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-4) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 13: Creating a Database & MongoDB](../S1%2013%20-%20Creating%20a%20database%20%26%20mongodb/Readme.md) |                                             | [Chapter 15: Working with multiple environments](../S2%2015%20-%20Working%20with%20Multiple%20Environments/Readme.md) |
 
