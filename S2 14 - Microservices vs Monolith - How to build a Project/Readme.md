@@ -2,7 +2,7 @@
 
 |                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-4) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
-| [Chapter 13: Creating a Database & MongoDB](../S1%2013%20-%20Creating%20a%20database%20%26%20mongodb/Readme.md) |                                             | [Chapter 15: Features HLD LLD and Planning](../S2%2015%20-%20Feature%20HLD%20LLD%20and%20Planning/Readme.md) |
+| [Chapter 13: Creating a Database & MongoDB](../S1%2013%20-%20Creating%20a%20database%20%26%20mongodb/Readme.md) |                                             | [Chapter 15: Features HLD LLD and Planning](../S2%2015%20-%20Features%20HLD%20LLD%20and%20Planning/Readme.md) |
 
 </div>
 
@@ -355,6 +355,6 @@ The Evolution Most Companies Follow:
 
 |                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-4) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
-| [Chapter 13: Creating a Database & MongoDB](../S1%2013%20-%20Creating%20a%20database%20%26%20mongodb/Readme.md) |                                             | [Chapter 15: Features HLD LLD and Planning](../S2%2015%20-%20Feature%20HLD%20LLD%20and%20Planning/Readme.md) |
+| [Chapter 13: Creating a Database & MongoDB](../S1%2013%20-%20Creating%20a%20database%20%26%20mongodb/Readme.md) |                                             | [Chapter 15: Features HLD LLD and Planning](../S2%2015%20-%20Features%20HLD%20LLD%20and%20Planning/Readme.md) |
 
 </div>
