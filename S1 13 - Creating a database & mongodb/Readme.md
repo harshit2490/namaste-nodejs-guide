@@ -452,7 +452,7 @@ What Happens on insertMany():
   Node.js App                          MongoDB Collection: "User"
   ┌──────────────┐                     ┌──────────────────────────────┐
   │ insertMany(  │                     │                              │
-  │   [          │  ─── Insert ──▶     │ { _id: ..., "Rohit", ... }   │
+  │   [          │  ─── Insert ──▶    │ { _id: ..., "Rohit", ... }    │
   │     {Virat}  │     3 documents     │  { _id: ..., "Virat", ... }  │
   │     {Dhoni}  │                     │  { _id: ..., "Dhoni", ... }  │
   │     {Bumrah} │                     │  { _id: ..., "Bumrah",...}   │
@@ -529,7 +529,7 @@ Update Operation Flow:
 
   Step 1: FIND the document          Step 2: APPLY the update
   ┌──────────────────────────┐       ┌──────────────────────────┐
-  │ { _id: ObjectId("64a")}  │  ──▶  │ { $set: {                │
+  │ { _id: ObjectId("64a")}  │  ──▶ │ { $set: {                 │
   │                          │       │     firstname: "Hitman"  │
   │ Match this document      │       │   }                      │
   └──────────────────────────┘       │ }                        │
@@ -537,7 +537,7 @@ Update Operation Flow:
 
   Before:                             After:
   ┌──────────────────────────┐       ┌──────────────────────────┐
-  │ { firstname: "Rohit",    │  ──▶  │ { firstname: "Hitman",   │
+  │ { firstname: "Rohit",    │  ──▶ │ { firstname: "Hitman",    │
   │   lastname: "Sharma",    │       │   lastname: "Sharma",    │
   │   city: "Mumbai" }       │       │   city: "Mumbai" }       │
   └──────────────────────────┘       └──────────────────────────┘
