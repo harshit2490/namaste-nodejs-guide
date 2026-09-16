@@ -62,7 +62,7 @@ Why MongoDB Atlas?
 MongoDB Atlas Setup Flow:
 ────────────────────────────────────────────────
 
-    Step 1                Step 2                Step 3
+  Step 1                Step 2               Step 3
   ┌──────────┐         ┌──────────┐         ┌──────────────┐
   │ Sign Up  │──────▶ │ Create    │──────▶ │ Choose Cloud │
   │ / Login  │         │ Project  │         │ Provider     │
@@ -70,7 +70,7 @@ MongoDB Atlas Setup Flow:
                                             └──────┬───────┘
                                                    │
                                                    ▼
-    Step 6               Step 5                  Step 4
+  Step 6                Step 5               Step 4
   ┌──────────┐         ┌──────────┐         ┌──────────────┐
   │ Connect! │ ◀──────│ Get Conn  │ ◀──────│ Select Free  │
   │          │         │ String   │         │ M0 Sandbox   │
@@ -307,11 +307,11 @@ npm install mongodb
 const { MongoClient } = require("mongodb");
 
 // Connection URL (from MongoDB Atlas)
-const url = "mongodb+srv://<username>:<password>@cluster0.yulixmn.mongodb.net/";
-const client = new MongoClient(url);
+const URL = "mongodb+srv://carinoharshit_db_user:K7KdvWLd6RKV53WB@namastenodejs.punvrpg.mongodb.net/?appName=NamasteNodejs"
+const client = new MongoClient(URL)
 
 // Database Name
-const dbName = "NamasteNodejs";
+const dbname = "HelloWorld"
 
 async function main() {
   // Step 1: Connect to the MongoDB server
@@ -422,11 +422,17 @@ const { MongoClient } = require("mongodb");
 // ... connection setup ...
 
 const data = {
-  firstname: "Rohit",
-  lastname: "Sharma",
-  city: "Mumbai",
-  phoneNumber: "9988776655",
-};
+    firstname: "Harshit",
+    lastname: "Singh",
+    city: "Uttar Pradesh",
+    phoneNumber: "2233445566",
+}
+
+const players = [
+    { firstname: "Virat", lastname: "Kohli", city: "Delhi", phoneNumber: "1122334455" },
+    { firstname: "Dhoni", lastname: "Singh", city: "Ranchi", phoneNumber: "5566778899" },
+    { firstname: "Bumrah", lastname: "Jasprit", city: "Ahmedabad", phoneNumber: "6677889900" },
+];
 
 // Insert a SINGLE document
 const insertOne = await collection.insertOne(data);
@@ -434,12 +440,6 @@ console.log("Inserted:", insertOne);
 // Output: { acknowledged: true, insertedId: ObjectId("64a...") }
 
 // Insert MULTIPLE documents
-const players = [
-  { firstname: "Virat", lastname: "Kohli", city: "Delhi", phoneNumber: "1122334455" },
-  { firstname: "Dhoni", lastname: "Singh", city: "Ranchi", phoneNumber: "5566778899" },
-  { firstname: "Bumrah", lastname: "Jasprit", city: "Ahmedabad", phoneNumber: "6677889900" },
-];
-
 const insertMany = await collection.insertMany(players);
 console.log("Inserted:", insertMany);
 // Output: { acknowledged: true, insertedCount: 3, insertedIds: { ... } }
@@ -566,7 +566,7 @@ const { ObjectId } = require("mongodb");
 
 // Delete ONE document by _id
 const deleteResult = await collection.deleteOne(
-  { _id: new ObjectId("670668562c6bd11e25050c13") }
+  { _id: new ObjectId("6aaae49aae30db745a4b1917") }
 );
 console.log("Deleted:", deleteResult);
 // Output: { acknowledged: true, deletedCount: 1 }
