@@ -610,6 +610,8 @@ console.log("Mumbai players:", mumbaiCount);
 | **Delete** | `deleteOne(filter)` | Filter object | `{ deletedCount }` |
 | **Delete** | `deleteMany(filter)` | Filter object | `{ deletedCount }` |
 
+> 💡 [Official Documentation Collection API](https://mongodb.github.io/node-mongodb-native/7.6/classes/Collection.html)
+
 > 💡 **ObjectId** is MongoDB's default primary key. It's a **12-byte** unique identifier auto-generated for every document. When querying by `_id`, you must wrap the string in `new ObjectId("...")` — otherwise MongoDB won't find the document because it's comparing a string to an ObjectId.
 
 ---
