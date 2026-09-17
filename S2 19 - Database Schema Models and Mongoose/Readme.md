@@ -186,9 +186,9 @@ mongoose.connect(databaseUrl)
 
     // Step 1: Create instance
     const user = new User({
-      firstname: 'Akshad',
-      lastname:  'Jaiswal',
-      email:     'akshad@example.com',
+      firstname: 'Rohit',
+      lastname:  'Sharma',
+      email:     'rohit@example.com',
       age:       22,
       gender:    'Male'
     });
@@ -232,7 +232,7 @@ user.save()
 
 ```js
 // Equivalent shorthand
-const doc = await User.create({ firstname: 'Akshad', ... });
+const doc = await User.create({ firstname: 'Rohit', ... });
 ```
 
 ---
