@@ -1,6 +1,6 @@
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-6) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 20: Diving into APIs](../S2%2020%20-%20Diving%20into%20APIs/Readme.md) |                                             | [Chapter 22: Encrypting Passwords](../S2%2022%20-%20Encrypting%20Passwords/Readme.md) |
 
@@ -530,7 +530,7 @@ password: {
 
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-6) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 20: Diving into APIs](../S2%2020%20-%20Diving%20into%20APIs/Readme.md) |                                             | [Chapter 22: Encrypting Passwords](../S2%2022%20-%20Encrypting%20Passwords/Readme.md) |
 
