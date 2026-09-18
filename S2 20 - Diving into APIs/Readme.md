@@ -1,6 +1,6 @@
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-6) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 19: Database Schema Models and Mongoose](../S2%2019%20-%20Database%20Schema%20Models%20and%20Mongoose/Readme.md) |                                             | [Chapter 21: Data Sanitization and Schema Validations](../S2%2021%20-%20Data%20Sanitization%20and%20Schema%20Validations/Readme.md) |
 
@@ -460,7 +460,7 @@ await User.findByIdAndUpdate(userId, data, {
 
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-6) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 19: Database Schema Models and Mongoose](../S2%2019%20-%20Database%20Schema%20Models%20and%20Mongoose/Readme.md) |                                             | [Chapter 21: Data Sanitization and Schema Validations](../S2%2021%20-%20Data%20Sanitization%20and%20Schema%20Validations/Readme.md) |
 
