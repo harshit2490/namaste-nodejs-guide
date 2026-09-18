@@ -1,6 +1,6 @@
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-8) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 21: Data Sanitization and Schema Validations](../S2%2021%20-%20Data%20Sanitization%20and%20Schema%20Validations/Readme.md) |                                             | [Chapter 23: Authentication, JWT and Cookies](../S2%2023%20-%20Authentication%2C%20JWT%20and%20Cookies/Readme.md) |
 
@@ -402,7 +402,7 @@ LOGIN:
 
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-8) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 21: Data Sanitization and Schema Validations](../S2%2021%20-%20Data%20Sanitization%20and%20Schema%20Validations/Readme.md) |                                             | [Chapter 23: Authentication, JWT and Cookies](../S2%2023%20-%20Authentication%2C%20JWT%20and%20Cookies/Readme.md) |
 
