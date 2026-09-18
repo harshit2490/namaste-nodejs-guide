@@ -187,7 +187,7 @@ Login Success
   Every subsequent request to same domain:
   ┌───────────────────────────────────┐
   │  GET /profile                     │
-  │  Cookie: token=eyJhbGciOi...     │  ← auto-attached by browser
+  │  Cookie: token=eyJhbGciOi...      │  ← auto-attached by browser
   └───────────────────────────────────┘
      │
      ▼
