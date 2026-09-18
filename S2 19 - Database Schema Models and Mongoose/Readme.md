@@ -1,6 +1,6 @@
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-6) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 18: Middlewares and Error Handlers](../S2%2018%20-%20Middlewares%20and%20Error%20Handlers/Readme.md) |                                             | [Chapter 20: Diving into APIs](../S2%2020%20-%20Diving%20into%20APIs/Readme.md) |
 
@@ -365,7 +365,7 @@ const userSchema = new mongoose.Schema({ ... }, { versionKey: false });
 
 <div align="center">
 
-|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-5) |                                                        Next →                                                         |
+|                                                   ← Previous                                                    | [📑 Table of Contents](../README.md#part-6) |                                                        Next →                                                         |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | [Chapter 18: Middlewares and Error Handlers](../S2%2018%20-%20Middlewares%20and%20Error%20Handlers/Readme.md) |                                             | [Chapter 20: Diving into APIs](../S2%2020%20-%20Diving%20into%20APIs/Readme.md) |
 
