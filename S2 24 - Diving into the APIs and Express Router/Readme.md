@@ -10,7 +10,7 @@
 
 # Chapter 24 — Diving into the APIs & Express Router &nbsp;
 
-> **Season 2** | Part VII - Authentication & Security
+> **Season 2** | Part VIII — Advanced APIs, Queries & Pagination
 > [🎬 Link](https://namastedev.com/learn/namaste-node/diving-into-the-apis-and-express-router)
 
 ---
