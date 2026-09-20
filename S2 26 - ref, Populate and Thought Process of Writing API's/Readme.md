@@ -456,16 +456,7 @@ GET /user/connections
 
 - **Q5: How do you fetch all connections for a user in a bidirectional model?**
   - A: Use `$or` to query both directions: `$or: [{ fromUserId: me, status: "accepted" }, { toUserId: me, status: "accepted" }]`. Then map the results to extract the **other** user — if I'm `fromUserId`, return `toUserId` and vice versa. Populate both fields with `USER_SAFE_DATA`.
-
-- **Q6: What is `USER_SAFE_DATA` and why use it?**
-  - A: It's a string constant defining which user fields are safe to expose: `"firstName lastName photoURL about skills age gender"`. It prevents leaking sensitive data like passwords or email addresses when populating user references. Always use field filtering in `populate`.
-
-- **Q7: What are the performance implications of `populate`?**
-  - A: Each `populate` call runs **additional queries** to the database — one per unique referenced ObjectId. For a result set of 100 connection requests with 2 `populate` calls, that's up to 200 extra queries. For large datasets, consider MongoDB's `$lookup` aggregation or data embedding instead.
-
-- **Q8: Can you populate multiple fields in the same query?**
-  - A: Yes — chain `.populate()` calls: `.populate("fromUserId", USER_SAFE_DATA).populate("toUserId", USER_SAFE_DATA)`. Each call populates a different field independently. You can also use different field selections for each.
-
+    
     </div>
   </details>
   </div>
