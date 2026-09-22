@@ -440,8 +440,7 @@ await User.findByIdAndUpdate(userId, data, {
   - A: It controls which version of the document is returned. `"before"` (default) returns the document as it was **before** the update. `"after"` returns the document **after** the update. Equivalent to the older `{ new: true }` option.
 
 - **Q8: Explain the complete CRUD flow in a REST API with Mongoose.**
-  - A: **Create**: `POST /signup` → `new User(data)` + `user.save()`. **Read**: `GET /feed` → `User.find({})` or `GET /user` → `User.findOne(filter)`. **Update**: `PATCH /user` → `User.findByIdAndUpdate(id, data)`. **Delete**: `DELETE /user` → `User.findByIdAndDelete(id)`. Each operation maps to an HTTP method and a Mongoose method, following REST conventions.
-
+  - A: **Create**: `POST /signup` → `new User(data)` + `user.save()`. **Read**: `GET /feed` → `User.find({})` or `GET /user` → `User.findOne(filter)`. **Update**: `PATCH /user` → `User.findByIdAndUpdate(id, data)`. **Delete**: `DELETE /user` → `User.findByIdAndDelete(id)`.
     </div>
   </details>
   </div>
