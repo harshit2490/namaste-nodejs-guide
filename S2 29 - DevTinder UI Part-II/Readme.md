@@ -354,7 +354,7 @@ Before login (user = null):
 
 After login (user = { firstName, photoURL }):
 ┌────────────────────────────────────────────────┐
-│  DevTinder            Welcome, Harshit  [📷]  │
+│  DevTinder            Welcome, Harshit  [📷]   │
 └────────────────────────────────────────────────┘
 ```
 
