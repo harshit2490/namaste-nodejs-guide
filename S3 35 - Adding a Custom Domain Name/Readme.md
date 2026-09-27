@@ -70,7 +70,7 @@ User types: devtinder.com
        │                            DNS Records
        │                            A: devtinder.com → 54.123.45.67
        │                                    │
-       ◄────────────────────────────────────┘
+       ◄──────────────────────────────┘
        │
        ▼
   Browser connects to 54.123.45.67 (EC2 instance)
@@ -151,8 +151,8 @@ Cloudflare Dashboard
        ▼
   Cloudflare provides 2 Name Servers:
   ┌──────────────────────────────────┐
-  │  e.g., joel.ns.cloudflare.com   │
-  │  e.g., lisa.ns.cloudflare.com   │
+  │  e.g., joel.ns.cloudflare.com          │
+  │  e.g., lisa.ns.cloudflare.com          │
   └──────────────────────────────────┘
 ```
 
@@ -164,10 +164,10 @@ GoDaddy Dashboard → DNS Management → Nameservers
        ▼
   Change from: GoDaddy default NS
   Change to:   Cloudflare NS
-  ┌───────────────────────────────────────┐
-  │  NS 1: joel.ns.cloudflare.com        │
-  │  NS 2: lisa.ns.cloudflare.com        │
-  └───────────────────────────────────────┘
+  ┌────────────────────────────────────┐
+  │  NS 1: joel.ns.cloudflare.com             │
+  │  NS 2: lisa.ns.cloudflare.com             │
+  └────────────────────────────────────┘
        │
        ▼
   Save → Wait for DNS propagation
